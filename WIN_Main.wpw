@@ -1,0 +1,689 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Main
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Main
+ identifier : 0x26e2f8d80676b3aa
+ internal_properties : CAAAAAgAAADmiv7NWxHmNWWmx8N8xrId0t7amUgP3tcQddixJaR6xywN2fPpO1pDR3ZHhAEYKZiXAVGU5w6DYvDNg30BX2QLqGBj+LtS46Low4wvkoAyCjjziACt/Tv/j3Dc8Eo3IcXxg4o6PrR/xLQ6GFuVTKIyXtCrMBpAwKLuvCN/Xi+oeS3T5AYFwhb2fj8ihH/6WyXWrK9SG5lmzwvbHdwe+VA8iHjUjQ7kNLSi9iwV4NfFK9apq6UU6EOr0TdC4NToaQBIKe99PN+5HGRlCgdH0Y+SD00JW4yZTDCTkIoEJJn5l9sgt6oFvbgMem2A0ipW2YHZbQb8hEbnpvUC6Z7zBvKFmJfjT44LpA6eXABkmEjMEbqZ2uXrPdjEq8Ztb6L6hnTljyvYfNYBx8PQk1DeiuIt5b3MpjBLpueewqF5W+6VhFpi7QTGNN2m3gRrpZ5WjkGETylXGMDVX9i0MuZWrIGknkJb/8mVndrYskMhiIcNRVX5pAXz3jqrjvDN0i8JI9YORPsPEuHkTQzaYQaqmDBBoc5t2ToNt+YLRcOvX6+fqGP7urgplxbTQ5f0Weybvn/dNhe0ieFDxySS+XoR4Vh7RvB3+etduQ7QhkLFIBpgS2kRVZvKtakyqtXJgdLyZ/t5eTQpPd4iPU4YJltf4kZDAnGGerc8KxCb19Fa2HRQWFKetT7zOqeUhd6AVc6Wvfx9ZYwnnsmOalYnsw8J0UegJcn6Bqb1fn83BYZFdfxU4EPMY9QLJE0Rr1GgQ+61WywjXAtFnmBJlt1ZR3KFrD36XOGhBGiizf+KmBA/CrMd3OTtu06ekUWBDDLr5UJL8Q==
+ properties :
+  width : 320
+  height : 410
+  heightMin : 483
+ controls :
+  -
+    name : Image9
+    identifier : 0x26e2f8d80679b3aa
+    internal_properties : CAAAAAgAAAD1R05ZCu2dPY3UxLbXNeoSxC1oKSqLbujKFvpOCsXGMhwFEv/4OnhWEXCPLa/8mA/f4yG4q3alvajZDFSEy70KfPtUjYr4sKvRNYfJ4DHg23BBphVbBjNvzmQZfpWJyNXQKEHM6BHspknTw7827Q3EUXwHyL3kO8MWgwZZcdrtdtDIMV7upAHLREyHmM19K1EP/I1Wsp3KtpE10pNOH3n0YW/QiYvXUkQ9NuOnnAzgYXmAyYNkYYlsEGp8rBq3eXz7/G7KKgiGBiDdDEQgbOZPK3kSNyBZZK6MmckxAqs2elLpBx7BPGlD7x6CrokTNw8aUSpRpNI51jk3MYrJNydAPIYXW92HN8DBxqnR/hwFysmzHyeKM7zDeQCAfTsqmd+XlHD9bvEXj8gZvxGLtXuLu18z3Sntf9BUZBCbdTliljxiWDDXtcmp4ue9Ucr2vu5iOsiVkEgYOorlAwD310wZ5N+7YQr/pLvT1S0uU7cyilosULmfcFs9nZpmhd/sMkMPzX0DdFr4A6kqhHhHnZyoZyWxFqZCj/v8gmSGjryeii6xvd2frEFs4ALqn1ePbQo72pUnDMTUTa96v20bcZHuLnqNpShKwNhOBVl9vXtUJqLa0jqCoEPZo8bmY10NJPq+UGadS8dUQl5oWrKQhz78yB//vgX3+fiW6xqXR/H6augBWlhMlFfcQTPaqy6XMnSUo+joe9fYsk0VXeZovQoGZWSipLYXrXdf/yTgp70eSw7j64/xcTUCNW0wOP9D8WyARA==
+    properties :
+     x : 219
+     y : 297
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image6
+    identifier : 0x26e2f8d8067ab3aa
+    internal_properties : CAAAAAgAAAAmq1sxKQRSTtnfivYTGjPwCcRbG8/Rrkb+i/ICEgNLedK6vAtTh6oHfLhefq3twa2e6PfGw9R6U8Zl8pdFshtoZ3oHpapfvnBxCy5NYni3QwcTlNCmJxPOHhj7/tGn9c2fI6BZck/kllL9aG4M5kl6b/NQ0PB+POVLwKu7ISuLCcxgsYjkufvE/gEY4YBXgYut+f1jjPYPZVqMf1E6WRWaG+tuLheJX7AEDOJ0VS8kL8r6lzDqF45MU95GdSkSIV5T+fuYkMp4lATLWxk2BN/5gqyV1S/EoAH8uG+1skAUt3w+MtfiobyuP+1Fiw17+bPLuQLbRNW9pMF0oMdLofGsJU4U/htZ+RdvLCVoXhUHCMrDlk/M76mv/Q8Qb1mYaY57WDygl+xvBTmxpd5OxtiSRywdAhgaL1rHFApiRbElxTYFJPFtu4RzeIsJ1CDxzUmEyjM8ICMQMTpbSnvyM7sgdwmUF4BIsAQVoqP53vIqwRvwEm8jCVODo/pwVRHD0yRjj3PtDStrv1JLfz+7F0Q+4ZNnsnD3nrzQ7w4jJR9rWakfBv/z0zlp0IodFBkOk5FdAnV0h/MwaKlN5EfD5FMrPoVCePTMbBdBFPOh8cXXgkrf1UXrGeJ395RwkOSYkrDjwOh/i2uTyPnnAftciyx035OoJMCIvh9V27sywCbJj9NCIDxRbWYSHjNkcMlg+2iA7HRObQwwjwHy4/gbeVC8CIJnTjGm8Jr0src7tqWkV3+heI5iQ/T/g1DaQg4C2kvgPivc
+    properties :
+     x : 219
+     y : 164
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image5
+    identifier : 0x26e2f8d8067bb3aa
+    internal_properties : CAAAAAgAAAALhey/kDtLi0+SgoQNO+hxfbsKKgsRbSpDiX6TNGkEVDp7ZykT/xvNlXHjYbQsHY5RYxl0VyKdvS55DuoA31fIAnc6U6og/D8/FY1nbFRaoljDZu31Bvmdqh7xfrv/hFmZhnc6Di+irJtZVfXcC/PdwZ7jhBN6/+3SbRJR/1TFFpCeLQo0MgMpWLbhTLPTQzO3ovVMUHuYnHHf0kO4kX2QwQG4IcUB4ML9qNPPpla83Ph+cd9eu96OG5Ktt8SKsjueIDbis66PDvO2atYRFGmm8RpB+PqbDGnKMh7PQeNGGpYkAZeQZtptOJJPdr66JhsnL4Ddc3NRkBzCp2RP2OtekJhvQMiJOAD79C25FKLFAsFhD4egud6x7Yq05aGgqQ97O8WYw6y8vj2IKCj8VGSigO5gEPbQXMfFPe1z7zrWauJkeAgiajbCVtAiaKY3iSkbaLByADdZzvYCTu4/wjoVozK+rLc9eNjtzzblIhoM88Dm2QeRh/jQW28rIT2blS4Ed3hLt20sVKIMUKsUsMmzqDlgdzUTjsS369sPRcWVQ6nyOMK6QawR3wflJF6k0iWM/RCsf4n/mNwxENz0qNZxg8Gy4OGRiSMnIK7iyHDfQ40zVLgA6jk3ZeCoWcuvclzgsweMbC7NMU97LyW3dE1VUxBz8tyQ8Jnx0Hkocobxe4fSSemvscoFuJz9SBU4+6nnaGq7Gj+2ElRi/1HKduFW3fDG7GjBhIBz9ld+xbI82eQileWf02M8cyt+6qmpCwo++g==
+    properties :
+     x : 115
+     y : 164
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image8
+    identifier : 0x26e2f8d8067cb3aa
+    internal_properties : CAAAAAgAAADjwPruULBIOZ7Y+XvnFHam4vyOm6e6qGF6R7MDC7jGf6UsPvBfncxrCOCUVVbbN1NRFpLbG8Lg2b0T8KHQ8BQC0DArn7qbMwSwErSlIb4rLi3kSU7XxkrTeg18Z7pxo56qLnwN1yubOtrJeA9XthE/GNd2fzIOqkfH6eI+9N66MNyAZgEN7XZn4E+FC0McdPFXj7jJNoRutbKEJ2Py+5YUJyEzYxLqrcAtlOJy216hUTVPp0qjynMMUq+dV/mHt851Hwqe2E/bqg+APlbKmp8AhEoTmj7MDAo5zsKhy1K/fkPJL+Absp/TEdwVhgKORxGKE4PGOaqZgJkMuAHSNITxTgRczbs+qIhUgrGe0Rbknz8rPK+dwPysHPI5BZ5MuSr1y8LY/IfbPnssNxYhardRMNKVuuGBWb0Nq/QZlzUUEvWfiPHEPPqwiM71GvMn2NSvoKNSdcaM9PSyCKeVseJPtCXSWb9pyunjock79WxVtMaGJhvsEHGu+YmwqzLBZAk8/xlr+qbl8BCEaSdqb903yo2z9gfYpO2GAPiVJjdw1mZjKNng7j364pnzur5SkHpurFkmJP4UJRXQLneaVqy8VbWo0hEvxkaDxcunCL9o720xiX9EYFjaK3HuANV2O7Hw2JaB+kS1nUkSSZSQSgQ09hUy3mgApKyk5/PV8P8vz/R5CWTHldAMZ2tFz7H/m7GOnZOLEU57s/4E21smMhlm9Ncq6d6VmrZ2wx1cKv/HkL8Zft/8vdnfKh7/+kn4pL5f
+    properties :
+     x : 115
+     y : 297
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image1
+    identifier : 0x26e2f8d8067db3aa
+    internal_properties : CAAAAAgAAAC3NMjAPnFpFRDknR1qUfq3kKXof0gCAX1PWuUrdxx4jhVhL0poZE22oY/h8z4SUk41M4qBmGFdwpMIJYAqqwRZXuF+vNPobSN+tmkKY33Q/Hg2r6uzHOINP2vSh5mv9c2fE8CJAh9URvJ9aL4cFtmqm0OI0EC+pM0z4JPL6UOo3XQAFWoilzXWkv2KTRgPmZOtbV3PupylI3Y4AWVCcRnGRxeWQOnTuUYk/IQkTfoNC32ui+eYQ/zKMZx6S8e8j563X8FolDbjvhXJ0V06T2JOLn+N3ECzLEepYGtEPbT6qle+JH3t2mwV78gl00+513gRPfj4JVGkazc6KiBLhdE5iaAwwpMBeItJJB263Btd02rj9m9sT8kPPQ9wj9kYic6b+Exw59xfNckh9a4+NghiNzztkq09Trs02Z9ztJ1rGailUDvcNF0+cN2tqsNbu/x8MNH8f1zlUCMwlDNRDOGbRo6RO4l/6TwSD7yfktKzu+bP0h3eobQCkiEbX9MKnFOOGqJ2NkKWcKPkAraq/v3zHasbfVnLL4uj+hPYwCz29t6Mp1iW4F4Er412lcDPUip8JSg34NonYb5C92pIL/xSQchJt6mQKBvlMHctHaFzLu6jGY2ToXqPz4zYSJwQKtiL+MDnE/MbULFvsysqxWQ8hfEK5kgAJL139cPA6M6X+TvKuPLNGRiM9HWkHnmYgfKA5HR0SRhCoQfIN6InTWpKMJoPFH0SYgya5NPlwmEShYSmPWebCr3GWmfhe0f57VjvzbpN
+    properties :
+     x : 11
+     y : 28
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image2
+    identifier : 0x26e2f8d8067eb3aa
+    internal_properties : CAAAAAgAAAD97jEWaEMXl5Roa6wabRLHGvfE35rxD58zDKvbm3R+FS3XSK6UWyna1ksVP3aQMp7b2X70501t1Lz4dQDrVdT8KIeMrj1jHX0laBjiAYpJIUol/6GpAEphRkhpRJRahBAgptI9whOKnpDXpB2edN/QlxO8f9gpqmMQQaZJwul0Dy/fucg9TZJgvPe4PzKhcd3HK1/Z3IY/lbgiPy8As9u4AUWgaiOFi1DOHnrG/3Ge8Zg124C673L0ix5mJdWi5bqrwQ8Q8CI8XMzzwFXaJhvl5oDhF6XqNtHtCiV3MvpO/sYkhnEMqi/KJDPK2d65kMBsnGPrLJcoEaUy0azLHvnzrK7qDgByNfBzxLK4MvGz9FxLUp+s1yXn5Y/oB61QRbJTQGaK5V7Zt7/jT3D0mDJYtUqHenBCTwLTNa1lS2OOL7Z17piNg6fIri4In972zNTZ0jZEP70mvrttxErBHfxHBoiRcuaiFqQ1TlcKaz33HPqvMU5AhLhePqTKDzdtXZJJVU2nI12deQidwcmp+da8/wmW0bGmWTEFnLV+rl7EwAi2WRbUohxC6Xdg4xZJ6EQWr/qtvorDheoy337INmPmy1r4h9G+7ly27FzrcSMK3eKdEZ9tD+yh3ku9QS+X9x8a1+o2VYqBb0vORWwLRmlHyBw2zv14qwCGGdkrX7+z5QcuIG4YZpM6Jkvq69L/3szlr1+vvGudfNQ93Ojxn6kVBaL7Vj7HD9tl8+LsZ1QW45K81TWNiEOMP2ToekjAmos+k/CH
+    properties :
+     x : 115
+     y : 28
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image3
+    identifier : 0x26e2f8d8067fb3aa
+    internal_properties : CAAAAAgAAADFxnnewGsPv2xQE2xDGyo/Ykfo0UyjqfWjlF17/1RyESnrmFySSTMs9uvbRyYg/rozQTZiiafP4pTojzx/ARCo8M94aP+Nc9eF0DraUbpNzRpla3uzwiiDFlB3SIx22CTI3gbnVCW4THjfCpm6DCcoG5c4eVqTlGkIoahRIpmEp8sbEa6/76iqjC9KTzqtgWUzH6MzsqwV80Caoc+s36OwQX18pK03HabiuqQCh90S5fwpX2LAPUiCVyK0MXnCBToXNeuCflgerkBvvumGasP1+gwJzb9EpAORpv8HbhYaCmZE/pfSmH2gmDdcdf4pnBQsZMtBmhUuF6n2Y/B3Iw2HGbqCHAHSM2DNNmnuBBsdTrClJJ+s9w3Ph0EsWRfKO3BJqg/PwLs6Vl6K5LE/NY3lIj/ggTkpKp9cleVx3e22xllYLXiNAx5BR78P7h+1DYvo8cXLNECRM3y2e/mSNHU+HfdA4WslkWGWQ6IlqDjwC026OLXVL2ube5WdEpwILtEE+Ph6fBRk9vXOFFzevIuHPqA1KE5RBBrSCYBJS/E5S7PpAMVZNbffSuzXau9g0bPpit2o1zFi2s8zWpHF8YydBtVPHhbxEQmTFf8mruZPoKXY1Ere7rvmQ7SsQOjOTIJ9AmldEtXEMNiPBIMEPQ46W/9dZWp7tsWr+jSOxFocXB4Vc6nRrdL7R1Qdhs/yQ5eslvYOWeYQ6fFi/4teAjKctNGW2WfuRlgmSMn7MJO3chnTEFiux6ysZ1zQUmDYgvOGW8i/
+    properties :
+     x : 219
+     y : 28
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image4
+    identifier : 0x26e2f8d80680b3aa
+    internal_properties : CAAAAAgAAAChk3oVJlkp8XFojII7Af4DE1FwOPlHOxCVD/iZIgfKpuhB3T8JJal7x2/dg/KSK7iL0e9qdfBbq/hXyFAu7R0SUJV4YSgGwoXRqw9F8lpkvI6xBMMD9F+LLJzLfKgMBYNDbAnUbO3oHkHf45cCkWlve7SNjknArb9Y8xCTLbqjYKpkb5Q6YGGj7qSJfi0FdUXW3L1Exiki8nXVhu9Odyls5V/M3TtPKgipfg8z3IRQyJxcxasYrnJ2A56dfwDmXoe+rEaaGsrkDms8vOuCzzFfpZ1Ww/zj4lb2suUx3zYHwnzyOrbEjXp7lqIxCDSPwkVPinmhIlbfktyF8MS5B5CWttjbTEYbOIqzyvlRaibFyomz32dKM/xDeQBA/TuqGZ8XtFAdTpH3L6g5HzFr1dsrG3+T/Q8/nbriHN6sdpf1O28V8wYhO0V8FwGjNRakECtQRb8hXItlmhQsGGKytyyMaJPx6va+OR6/fXtIkY/YGlhaTGJndBLCCd8lBDa1+7ByiaYN5QeC5tDmXu3LGWQYD/bn8NzEre2a5LJoHA7MXBSrC/9lnt/u/uTo2eEB+a4H527Oaa+5vNhRnFDk2CY53wkupCEZ4T/reCK2YOhn0yFLYLwImtlLcRCkrRNHYlw0A5Pw+lArVymt2buNblOXXXqF5P72qgOPPpfKLOwLAV04R1tJ32w37mLTcq+ujY/dSqSxAEkg/EKQreOkjMu8oz6Unrq3fvr5TD1Ql8Auz/o4o9epyV02eSFkzEsXpaBUkA==
+    properties :
+     x : 11
+     y : 164
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : Image7
+    identifier : 0x26e2f8d80681b3aa
+    internal_properties : CAAAAAgAAAAT7eSnqANDk9cKKqxl46C5NfMSApOp1ULbMdbr3AHsrOJD3zELJ7N13WkLU9y85Z6H5424u465OUIVIoZMGyvs9uuu177cGCuDsSHT6KD4IqwDOhHNzlkZNr6V6rIu/7lhZk8SFu+CJAvRxV2Es2OVMV5zhDPSp62aLZqBv1RtFshmVWJsYpOBmJ5zFJ//P9mc2mtKTA9QmNdbKPXE/a+msw0SQ8EdqO6rREHZQoLeevJS8ymOVPAMveRXfWZE9PGsonRQaFASNCkaTl+ILU/5N0PerLLYxRI3n6qtZlHH+jKTJCGhz2yHfuqbg70nyZc16F9fYDRVTQLqDHjbLglW3lCTRF7ay0LTPml5VhJx3iGnh3c2J8ir6YQYNUfOhQuntm7vfKOFud7rRcNBH5ENOcGxT7URm4SAZrS/YtuhTxtpP5tHS/WUKLgB16B6uiG2ExVMBYP64bX9M8npLV+JfLHrQJ0g8Rnx+MpEiLxy3phmZEqLyLyEz/l34lR3seJsi6CDg1nwvOLgQLs5i/JCGVgB1ur2ezMklgzeOsAKBpYlLe2LeHWsIN4qp1erz5hZgdbWRcuN1CAdFJj4lOod151WXGXdLX/LfMLefPxDb1F/6KQE5h0jecyctX8bFpisl2MQxoyfD+nhyaMx6ldjTbYFYmwI+IkJkKEIQqZJi5+6gSFn8fotuITtYG3wOzFnyujd6GlOqjyap+mijsm+pTiehMCpbOjrfu/mbRpU8ZxaXa3H63vU28OG4qGhExIm4g==
+    properties :
+     x : 11
+     y : 297
+     width : 88
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+         Click(MySelf..Name[[6]])
+        type : 18
+  -
+    name : IMG_NoName1
+    identifier : 0x26e2f8d80682b3aa
+    internal_properties : CAAAAAgAAAD4r9wgmMoUNNG6aPqicygLt55k/yqk+INWv7FLfZ/4JkpNSzm0YEOqyCU1uggIVdOoqPpZZeCzEuRX/dVZ0ayXgyLFNnQNJA14yA9GRiWiZXlG4cPkwz0bIaVZDVYUXu+78PdeXvrsvRks5pFAc+J4Bld4e8yMgClSwx92w7EDjTe9c7RKBEcFI2DfaD99gEzPblqGfULsbQ/9kckqASwQqSD/0GlXI9QqvXdEvq2AEgDg3kqLkcNQAVgiAKf+0Xj5/VjnDbeX5Lmhmxstv72WGtTkVDOcMmuqE/xYrqqQWskjSyggJWQnkpfXYgYlaITNPji8gxV+H1YkfhPxRIp3cYa3rb55w3n/G+iXUThfMBxNWgODC9OpP7qeUGzVutMK+wqYtDop63DM8tNE2VfqQdgvKjbjSGd4QSlr5uKFgyawL1KEfdMecKrQnLZvBTNNQ4HrF1RqzJTQ9U1QPkCjolKcJyW3OtQpAoFwACiOPxgYAIKgRMshdc9q+TG9g6zWzjh9YGpKHfvpxvzQ4qmafqLHRoWjDb5y+3FA4FeF74YBye2sGxLRHPJg2fdJgmlQ57pxaGbdQCLmW88MTsVGUTtwkYHybWvHfCGXoxWcX9uioH7x90KXvWfORctq0YbJEJccnUuUsBeVneyCovJBLraqsKRVCO8fTGipSck9UDE8M9gYhWfQ194uzo3w7roaEBX/uYEZ/ApJOdtCduDiWI6VmWwmRMDym+segAqn7zU/XYyAMnmYyjE/8U7gDYA+I01OtbW8eVD1IZ26lk2RnDivVkTe1M4H8xSu9ejO3lhdlqEyMk+KX+UQ+kd/0JfENYdHtW/O/NiDUOVzGXRNJUO6mEbLn5RtbaWq+VTYvo1J
+    properties :
+     x : 2
+     y : 138
+     width : 316
+     height : 10
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_NoName2
+    identifier : 0x26e2f8d80683b3aa
+    internal_properties : CAAAAAgAAABxtZdv6C1h25QR1ohjrKEWRV2WwRw9b1Y4NN3oNbvmveZl/tvVC4PgXH1r4anBy7v6dkXgDr43O0uvzpYQBEySTuRsNOPKsnJ2rgyH3CbJa8R1Z4km7ahmYRFt0zsakY9HwCFuA63k9EJ8aQ6g982buX2ca09otvMRpMMDhMRclDZP1EcfcP+AEjID2I8NbtWyur9p13cctdisrBvq20kU+UOqhwoIdgs5Ta8Nn5+AKgXML5MWtc2Nfll1y7+F2itBPtIbBSaYE6a1EqgCEiRRjZu0e128ZmSTYueZ6NteQzOQahdw7Db9aRdkVZMGFx1iC2GyM3NhE8+urWKhAkTQTyIDY+lDyQuTCZ/mNnS8vKEvC7Qy1aBzb5oaPGeRtW9stHWkA9ULofpjhoO2ITs3ewigfWuec8zAI3bFIvV+BpFaJ5MX4jK3bM0NY7VuGcyKd/+Pmt/gfsI1PuPP14M+H6OTHB4sZretQAF/Fd+iJY2eolpTS6eQxUXpzzPKQbOINzgCkS4vVO+jYhYMcjawB5odhUlFrzgB+irLZBOy0qL4HolaMaEIEOi9sJuB+Exq1NVyrVe9SrFhIfexLh6O5axGmeTTP2RhTIFdkQ+u6nlK9ynLWdAUIOCYT9OKZr9acrxZqgxZJAgTW7RheZplPrxgwWrB2V3Q+MAjLVM2riPetFW9/lrNM4s47JzrMksKVmpRdXOaSFzHUArzHHXa2aqjbdAw5tNBdF529IKoat9tHciF5wRVQRwnOA2cWEatTUfHxcGb4A+X6WYZLDaZPr7uW16ydhZ9Sm0tDCWyfYqUxwRytr9XvJO99m8zPSrMMuZUds9YbTP5Sk8wfWOjk1kP9OEmi9OdZH6IwwB0+w==
+    properties :
+     x : 2
+     y : 277
+     width : 316
+     height : 10
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_NoName4
+    identifier : 0x26e2f8d80684b3aa
+    internal_properties : CAAAAAgAAACPpjsemWz+R5XvlDFkOHP7Ig6L+Alw3buhKcsOWycj/av+HcM6cSzF5+1jgPZhATQmRQZyR/+Gkjaa6NI8bigxa2X8CKyX9Qr7JkoC4/K1u50nEWQQfHBYjRY3D1TTbPK6eieOcumDDT6tv26iA/Zh9yvG8gmxasVBvCUHPQt23yknL05KFwU/1QQdd0tgP2X85UexmifmHJiFo7FBy1FNJ+wtLmvurUUdpvIIN0eU9iesI7ZVr4XGPRfrHkrB+qYdxcyNiasvRsaljLFGhherQkaJ3OMJ1nqkKhoF0cn2JK+A9iD9viu1D/Hr7m3Stc1lN8vI5lFwAJJwN5GsXqi5MN1zZvzG/cV3dRUFYOK6TM7edW+kmVtEpZqrwCW9JKlU1dDIyq84BsXOiHk/TfJee6AlclL/qfujHpVAWqUyR+2R8PtivUcsUJAgXb+BX+KTqFoNa28DV8S+fTNsJRjRwYGoPi88CjFEFEVN3MW/+kKwqng1cvZiA/LXz0Rv5CR9BAnLTwVbbonzVJpgXa2ri1vZzI3O56heAFiVShI17Gz4yw3kkH3TWBakH7L+Y56jzZI0ozggqSZV+9VJUO6FFEoFUdVDkYwsOEJKCIixJRVkrRqPEv3hhC9khuu2Nv/7pN8Wohn2WrHDbvp1NwsUZ7Np00D1Hj4jwbm94fqmaqA86b5D+tK92jybJYRLUOX1hfAfnTVGRa300qjwMoEoUNtqFWITqdCXWNfsQjlXpNxsu7I8+4dT+7vCZufApCsJPa/K6bGjLC1MMeLAlOyf87Xn2wXon/VdQmJIx9mHe3ZIMJS0TZzS+TIX5sA+z4yXvc5xFmabjTzgdJ94QQ3Yk7RtizWgq3ycwGVQ9A==
+    properties :
+     x : 207
+     y : 2
+     width : 8
+     height : 406
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_NoName5
+    identifier : 0x26e2f8d80685b3aa
+    internal_properties : CAAAAAgAAAD20FE0TGCxIC/yqtNTVZMmHbTk1I2a5SXEloO1MUeIVZIt/Wp8XypodPfPxFEXUU7t1Lshef5KQyWzy3xkl8oI7+wNmX/69IlWq2jhDDPjLoM1P4V85BKlCJ9UKnIWgPn2cLU9YdjG2wmFE3iunvQGR8XNoUzXEJzPSiMwocIkD7HFykWU1Ldn3npg7gLnVErl8bY3Uf+uuyVupsRkuGgC4UIeF+Ja4goxzdAQSL3cYXfiVYr2wvIbS8lf7NLVr+PfV6lgKnTwNlKHH7SPEe8XWPRIqBMXhHO7ARebFG6A4aLHJzMsWugbgWxlS3oc7dSg0AlVjxlK38HDaKRnNfT6sTfzM0sKdHP3+xBAjC9zeseMHjsTYsvHk87eeTkZsOiIsxbeIuBb5mIWR3mfSGg7mzkYNNQchsE6TVJM9nejm2CBLgVhJbcsc4RGiqQHamKhrKdsc7+u9/iO3stYoYPyBqe7fEXPO2p2C+v77TD4TFSAHSkg1cNawQH6B5+0bUPWisqO3ly4o+75LvVbxeEe+hCRXESr9j+1Hj2firVqBkN0RjtnWrL6UMochO7aP9YMXVGev+Ut1B2+5Z2NvupoQhqOI64l+WC2kxe+TkJfoLol/ASdEwAUpiZsaVU8AuI2G090Pd3GxeTHYYUEjA8AGFWnstY7URqQjmp5LIJKIV8eLYVcPVcYSjxEyAEjc5uId6/wH1R9rHp/GlkxazTANmPjptUsfHV452WtCIfVqWz684v7RqjdiBbxEtq2amfoBtRHVNmfuSlRzR9bP+KQsr/A2Om5lRmqQSXi4EjPq8QSA/cKO5TKVYHieZda4gGeod57m+mtFvRmu8N4BQtV3J5Ncl24CiU7+XU=
+    properties :
+     x : 105
+     y : 2
+     width : 8
+     height : 406
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x26e2f8d80688b3aa
+  internal_properties : CAAAAAgAAABURHQgaukd+1W/xOoR33zBml4hfhGeOgyCgELD7eT6rVn6e6nrDjQ3q+UbJsJmkigMQzIntYgPR/vo+2AG9dUedgzPTcfd7FUVSZRux1gPQf52ocl4TaU/o7Y9Rpl5rxuhis5Vn3PvJKuiM5uu3kIYQB7P691m2i0NiVK4t+m1b7/mqFos2ndxDYRE1uUmWpVzv+BlEVksKXqG0CtVDmLKn3QNjKe6o9/L1Ak/oh52KxtBtJhgrwTgDLfv6j8yNJC6In9gS0/1UBdjXc88qxFEuyYw+K0kovBPTBvHxBxffKMhCZXR/O7nfyGJJZnFfWdPIZH/aFT9vaKwLjChF6RjwH4fcEfnBjUBsBvArq8YVDo98JutJFEWH9r+3ck3+mAKtcYWk42tpB3gLblDw076+8GjTZV+SZkU8jgbp8A=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x26e2f8d80686b3aa
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_New
+     identifier : 0x26e2f8d80687b3aa
+     internal_properties : CAAAAAgAAABx4gpkczSg4aFq6M5jrciNKdwJbtaHw5o9QG3Zejd5ogomU3RU2Eg05zJpEglmaqqj9AqOBvwxgS4VZiCiFXrNtx01Yb90IyufQZZM2NT7Ct2nLArp1knd2FUX7mK0HFkqr0AkQXin8H4UAv1dq2ibjVs+oqsEjwasOS522Memo3uJYihb1jkK+6SbA9SF+dVWgwizA2HyWfhDhbp+9gzr2k7kcba2FY2Tz6PqrgsQijlVUNTdeHxv5cfHSNrcjIGllRNP2c1dza2NSU2CxnCXblzUKQKBeObgSmn+2Qd94iBv4ngRrp4G7cZs+fyIW8+ILGiFd7NnFXnKmIliRQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          ResetGame()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADs05DCGZ1rLZdqupRTgfHEMKTb/vbqsZEW2kAG72n7P1tiQ3ekzqd5M7Gch4RSyOEFK+GYvVsspGif60iDc3ufPsIFMWhtY/mVCSFR2kVN0lZ/x/o0N7qftKWt
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      GLOBAL
+      gsPlayerImg	is string="Cross.png"				// Image used for "marks" of "human" player
+      gsPCImg	is string="Round.png"				// Image used for "marks" of "computer" player
+      gbNotEnded	is boolean=True
+      gbPlayerStarts is boolean					// True if the first player is the "Human" player, False otherwise
+      
+      
+   -
+     code : |1+
+      
+      ResetGame()
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : Click
+     procedure_id : 1649154020189057962
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //Click (<sVal>)
+      //
+      // Parameters:
+      //	sVal: number of the button (in string format)
+      // Return value:
+      // 	None
+      
+      PROCEDURE Click(sVal)
+      
+      // Is this square free?
+      IF {"IMAGE"+sVal,indControl}<>"" THEN RETURN
+      
+      // The player plays
+      IF PlayerPlays(sVal) = True THEN
+      	
+      	// The computer plays
+      	ComputerPlay()
+      END
+     type : 458752
+   -
+     name : Plays
+     procedure_id : 1649154020189123498
+     type_code : 14
+     code : |1-
+      // Syntax:
+      //Play (<nSquare> [, <sImage> is UNICODE string])
+      //
+      // Parameters:
+      //	nSquare: Number of the square to play
+      //	sImage (UNICODE string): Image that must be assigned to the square
+      // Return value:
+      // 	None
+      
+      PROCEDURE Plays(nCell,sImage is string=gsPCImg)
+      
+      // Place the "mark" in the square
+      {"IMAGE"+nCell,indControl}=sImage
+     type : 458752
+   -
+     name : PlayerPlays
+     procedure_id : 1649154020189189034
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //[ <Result> = ] PlayerPlays (<sVal>)
+      //
+      // Parameters:
+      //	sVal: number of the button (in string format)
+      // Return value:
+      // 	boolean:  // 	None
+      
+      PROCEDURE PlayerPlays(sVal)
+      
+      // Check whether the square is not empty
+      IF {"IMAGE"+sVal,indControl}<>"" THEN RESULT False
+      
+      // Play this "mark"
+      Plays(Val(sVal),gsPlayerImg)
+      
+      // Fill a table in memory with the game status:
+      FillGameTable()
+      
+      // stop if the player won the game:
+      IF bWon(pManageSquare.garrCell)=True THEN
+      	OpenMobileWindow(WIN_Result,cnVictory)
+      	RESULT False
+      ELSE
+      	IF bFullTable()=True THEN
+      		OpenMobileWindow(WIN_Result,cnDraw)
+      		RESULT False
+      	END	
+      END
+      
+      
+      // The game continues by default
+      RESULT True
+     type : 458752
+   -
+     name : nRecurs
+     procedure_id : 1649154020189254570
+     type_code : 14
+     code : |1+
+      // Description of input/output parameters of 'nRecurs':
+      //
+      // Syntax:
+      //[ <Result> = ] nRecurs (<ttabSquare>, <nLevel>, <nSquareSubscript>, <nLevelWon>)
+      //
+      // Parameters:
+      //	tarrSquare: 		the game board (by address, so don't modify it)
+      //	nLevel: 		current level in exploitation
+      //	nSquareSubscript: 	will contain the number of the square to play.
+      //	nLevelWon:	level that corresponds to the winning move
+      // Return value:
+      // 	Undefined type: // 	
+      
+      PROCEDURE nRecurs(tarrSquare, nLevel, nSquareSubscript,nLevelWon)
+      
+      i, j					are int
+      Row, Col				are int
+      RowPlayer, ColPlayer	are int
+      n						is int
+      nRes					is int
+      nCell					is int
+      arrLocal				is array of 3 by 3 int
+      
+      // Don't explore the levels until the end to leave a chance
+      IF nLevel>4 THEN RESULT 0
+      
+      // copy of the array (do not pass by value for the array in WLanguage)
+      ArrayCopy(tarrSquare,arrLocal)
+      
+      // Player's turn:
+      FOR i=1 _TO_ pManageSquare.gnMaxSquare
+      	Row=nCalcRow(i)
+      	Col=nCalcCol(i)
+      	
+      	// if the square is free (otherwise, go to the next one):
+      	IF arrLocal[Col][Row]=0 THEN
+      		// the computer plays, let's see...
+      		arrLocal[Col][Row]=2
+      		// does the computer win with this cell:
+      		IF bWon(arrLocal) THEN
+      			// yes => fill the result variable.
+      			IF nLevel<nLevelWon THEN
+      				nSquareSubscript=i
+      				nLevelWon=nLevel+1
+      				RESULT nLevel+1
+      			END
+      		END
+      		
+      		nRes=LIMIT_MAX_INT_4
+      		
+      		// Recursion:
+      		FOR j=1 _TO_ pManageSquare.gnMaxSquare
+      			RowPlayer=nCalcRow(j)
+      			ColPlayer=nCalcCol(j)
+      			
+      			IF arrLocal[ColPlayer][RowPlayer]=0 THEN
+      				// the player plays:
+      				arrLocal[ColPlayer][RowPlayer]=1
+      				
+      				IF bWon(arrLocal) THEN
+      					nSquareSubscript=j
+      					nLevelWon=nLevel+2
+      					RESULT -(nLevel+2)
+      				END
+      				
+      				n=nRecurs(arrLocal,nLevel+2,nCell,nLevelWon)
+      				IF n<>0 THEN
+      					IF n=-(nLevel+2) THEN	RESULT n		// no need to continue, 
+      					// the player has won.
+      					IF Abs(n)<Abs(nRes) THEN
+      						nRes=n
+      						nSquareSubscript=nCell
+      					END
+      				END
+      				arrLocal[ColPlayer][RowPlayer]=0
+      			END
+      		END
+      		
+      		// restore the square as it was and go to the next one:
+      		arrLocal[Col][Row]=0
+      	END
+      END
+      
+      IF nRes<>LIMIT_MAX_INT_4 THEN RESULT nRes
+      
+      RESULT 0
+     type : 458752
+   -
+     name : ComputerPlay
+     procedure_id : 1649154020189320106
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //ComputerPlay ()
+      //
+      // Parameters:
+      //	None
+      
+      // Return value:
+      PROCEDURE ComputerPlay()
+      
+      // Local variables
+      nSquareToPlay			is int
+      
+      // Search for the square to play
+      n	is int=nRecurs(pManageSquare.garrCell,1,nSquareToPlay,LIMIT_MAX_INT_4)
+      
+      // Did you find an "interesting" square to play?
+      IF nSquareToPlay<>0 THEN
+      	// Yes, play this square
+      	Plays(nSquareToPlay,gsPCImg)
+      ELSE
+      	// equality, 
+      	// search for the first available space:
+      	Plays(nNumEmptySquare,gsPCImg)
+      END
+      
+      // Fill a table in memory with the game status:
+      FillGameTable()
+      
+      // Was the game won
+      IF bWon(pManageSquare.garrCell) THEN 
+      	OpenMobileWindow(WIN_Result,cnDefeat)
+      ELSE
+      	IF bFullTable()=True THEN
+      		OpenMobileWindow(WIN_Result,cnDraw)
+      	END	
+      END
+     type : 458752
+   -
+     name : FillGameTable
+     internal_properties : CAAAAAgAAADyPvxb05hzit6JChhQbN/PuY6v/cO+r2QywwOzLwv3zcSf1gqKT5zZPNxWmLypB4w74/QUxdmW0IPLNoCn7dbha4+b/rJYbdr+5gTOrjoxNpz/j3LBHfqXl140U5oda+ZYl/7XYk2Za2yRiuEal0I3ygwblo80Iq1ONf2kPAvDSCbtEDOnE4teLaj6+x+og+AbUu6H
+     procedure_id : 1649154020189385642
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //FillGameTable ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE FillGameTable()
+      
+      i			is int
+      Row, Col		are int
+      
+      
+      // Fill a table in memory with the game status:
+      FOR i=1 _TO_ pManageSquare.gnMaxSquare
+      	// Search for the row and column corresponding to the nth square
+      	Row=nCalcRow(i)
+      	Col=nCalcCol(i)
+      	
+      	// Assign according to the image found
+      	SWITCH {"IMAGE"+i,indControl}
+      		CASE gsPlayerImg				// Player 1: "Human" player
+      			
+      			AssignSquare(Row,Col,1)
+      		CASE gsPCImg				// Player 2: "Computer" player
+      			
+      			AssignSquare(Row,Col,2)
+      		OTHER CASE					// Empty square
+      			
+      			AssignSquare(Row,Col,0)
+      			gbNotEnded=True
+      	END
+      END
+      
+     type : 458752
+   -
+     name : ResetGame
+     procedure_id : 1649154020189451178
+     type_code : 14
+     code : |1-
+      PROCEDURE ResetGame()
+      
+      // Local variables
+      i	is int
+      
+      // Initialize the graphic part
+      FOR i=1 TO 9
+      	{"IMAGE"+i,indControl}=""	
+      END
+      
+      // Initialize the game board
+      FillGameTable()
+      
+      // Draw the first player
+      DrawFirstPlayer()
+      
+      // The computer plays if the "human" player is not the first player
+      IF gbPlayerStarts = False THEN
+      	ComputerPlay()
+      END
+     type : 458752
+   -
+     name : DrawFirstPlayer
+     procedure_id : 1649154020189516714
+     type_code : 14
+     code : |1+
+      // Syntax:
+      //DrawFirstPlayer ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE DrawFirstPlayer()
+      
+      // Initialize the random engine
+      InitRandom()
+      
+      // Draw the first player (1 if the "Human" player starts)
+      gbPlayerStarts = (Random()>0.5)
+      
+      // Display the first player
+      IF gbPlayerStarts=True THEN
+      	Info(<§$0005§>)	
+      ELSE
+      	Info(<§$0006§>)	
+      END
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f1982bb00effd1a
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : You won!
+     index : 0
+   -
+     text :
+      en-GB : Do you want to confirm this achievement?
+     index : 1
+   -
+     text :
+      en-GB : Draw
+     index : 2
+   -
+     text :
+      en-GB : You lost!
+     index : 3
+   -
+     text :
+      en-GB : Do you want to get your revenge?
+     index : 4
+   -
+     text :
+      en-GB : You start the game
+     index : 5
+   -
+     text :
+      en-GB : Your opponent starts the game
+     index : 6
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

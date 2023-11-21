@@ -1,0 +1,187 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Result
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Result
+ identifier : 0x26e2f8d906ddb725
+ internal_properties : CAAAAAgAAAAngjSXU8+1vFq8aFPVnA2QU9YN+AxNn3uaPR0PYizDFXMCEG21tYXOtHCtyNJn5Js8zq9rlWN8BIPDhk95XQa8HJKKakHjQg5+ZG4QztaEeS7vwkgJxm4fpY23h8D9uL1HYtsRmo7tkw0nDGoYfbbp6cG/1wJHp5BVa3tuLuR6euPm/P93Bu9uGptIAYi4WfvHg9Ik83QUxXzJPUiB/Ookjd0PMRPccfyGBO50tZ8ht2aJsglVn3BmZf6JgHsae154TV37sKoJjGpea3lVjC/dm2/u7zco0kKURXzQRCPm9bo5GV4WvG/JlZvks6kihltfcrxYSQQWvB9QgJdhx9nHK57n87W/FT5Wx9+wgkMGtjO4xEQ/GiVGKBs1g+6soeF62kxtjdTotRNugxn8wbZSYrDGQWNRdiNguZN072pLfijEdz7Xua59kmm6od7fAfh2y6saBym4pBmHUQMMtXJV8V7PwUYEqzz5MxoMw9ilwznv8j0P5/RH970QLk9zebES+ZV+riO5RBgANhmYzg3FPELYn4TlJE1EH+YXLdOU5X90KsU5xP9MYXTuTq6QJuWLASRLAgarrCqOrwttoLqOEm/QYATmOHeGN6TQ/8Spg5Pos+Bu2IlZqJCJm3ECoCNC7oE7why0ko5EXycL5U/yNaeVYuf+0ag++uAmZC4JyvWFOqZrqLxeLi5mXsT78jJ42Aty1SHDSTbTMsxxP1UgUKmsGQ7D5cDnU3W5uKpzEnvEeM3tUA0xMp3fsIOmt/eMNwojRhuc
+ properties :
+  width : 320
+  height : 479
+ controls :
+  -
+    name : IMG_VICTORY
+    identifier : 0x26e2f8d906deb725
+    internal_properties : CAAAAAgAAAA50s3C1OEsvQeufVXCMcitXfGWxBPrROMh2TgzYQNgdiwW9MzCKCmv8B4oikj7Uvt4mH6+zjV1v0i/nviLI/bAGoibub7YpKHHsjkfOodD1n1Y1J+mz51tlMjhhH3OnDQre/IvZXkq3oj1SCzcF+AbngnirbUyrA5V4nUJDpFoiQChP/VZUDkbX3jvFNl2qTj9yWIFPco8rO4uZ+QbrHwn63Ev4u65iZrLoW2uvk7Q/CNs/Ds/4ARCOMD1Pt+S1Al1moGx79EeOlY/QSelT3eQkWMPF4iMIWGEnsEXwxGTAsHEYcpe0cU/9uklhdK5QHjKoRkqUdO43GSKBjC/1w4pKDWkk5iQovSAYqE1wm/s4aPxGOs9JACIJvkEvTro3xir+CnhUjO59CpRY7FEuWmxL4J1XJmPQV7kTLk8waAoZosLiWVca78xx+wDEpMUTCfkCwmcQ4syqR84OUPBuGtlaH77s6fWgi+Jkyis9WJ3LTo35GmThbiKMuRdXADBXW1VxNTjNmroEvEuzengTvP+cjX+cQI4+CRRfiVCCJeNh1BctsiyzpyMREWq3qhbJQNa+so9BPzP8+oV9hBa3pzIM6zPsmDmv99dxkQAZreP4VJVOI2c1Toes+BOZpUBpXNdyAchZn1brEqbDWxCSGJwctLAtK2Os/JjUhGvqffvPAegHz9cPLLhf6fYpA/hnV1W/+fPWmRIFam2kTv/1vDnKZFWlork+BtCJVVZ/3wVJW7XCZ+nsSkIta/MWFpkKZwrjUDlUQl6EVQq5MgQSH8vhmdiZzM7JPS/X6AwaTmbXnfzFD6LZgjUjWicVW9ZnXBBXESFxt0=
+    properties :
+     x : 89
+     y : 94
+     width : 143
+     height : 146
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_RETRY
+    identifier : 0x26e2f8d906dfb725
+    internal_properties : CAAAAAgAAAAv2NLsDMOFw4kANwgc333n8KpbGDmLW3/5SzCafL7zJmJs2vwkhF88938/53foQUZ5YXWoc0AKvAOhd8/EMt/ZcYk7MnezxU9+WQrEv3IsUxjhoYyN1J3q78P84iyljcwlkKCaccdp9xrUrkq8uJFEta3q2i3elLDGaEETaZshbFGhGlfjy6M4Bt5Aox8raOs8Xy9ub1ncRNnhWoz8E8BqT2OH55tkeHwn/SKRwWtLly5lSMdpFK3JFUteyl1b5fDvfgjsci7zomQYzVrNFOrDPnS/irV2blraewzSFC76GA9BMObu2JSK69RdLRlv3Hsv2c8FA3gjyEknAE9RyI2Q1dCS9f/8HjjAbyoxpbKr35CkPu9byNOWSANYgPf/aRhTXJpf4i0rot8yTddUiKmYKhz3sEx3ESSZNllUwXrN9+gJ89HSV8MqIUph1D/hOQIijXkHLq5dZXG5YGAMNzCoL1VEwrJDq9hybEEbmh/eDrNO+UQK/n35WVsT6KJ9uYrCsSnO24Z+9/DHxzEqP5n37FCkpaqT6EIbCFuI640Qu7XB2lSJ/qCM/v/cNXRQMmHYRamXu/rWTpgE30n1ozqt3dz308MnMgyupdQWhC1Dv5Qfe/47vMM2x2bXr3HGAJZ9h0APmQ5IrkIw+4Mx99NRMlO7kpuRsQDHaJDOVBtZTxQ8iPlMlRKm2kZxkZmPwScYzZvr2PtA/XcMlmoOq7ktd286UuDQWg3KvU8Lky6ebHOczrHXf12sfzHe+luLWFViNHozG0WwN4zqNGSC2odvdmd0leltiP0BBmjsx+f5H6TsR9ycGE4h3rFUgVtpmWvA09F30Ms=
+    properties :
+     x : 89
+     y : 94
+     width : 143
+     height : 146
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_TITLE
+    identifier : 0x26e2f8d906e0b725
+    internal_properties : CAAAAAgAAAAO3xQ1ACuI3vXceyqWxPIGKRHia4CnKF8sWSTgNhcm4dl7b1SbK6Z9itbiAUm5zFcm4WluCLQuBMKub3o9zYNtCjXYIqi/Pe12To4K527pghBX0guL/9y5SVEEi7cg8Lfd+BHg2cd2NK24B7YbfIidtr6OnzUJdYHR/tNc6DGeCUKldBmzZZvuGJuIdacyWH3xkugJibiFQWuMI9eMEJWheUdkC+sfm9OZXH+13OJsW89+hdNz385VAZwWS7aWF26APZGAAYdf37xL5cfKLpyN/XuOtOHn3bCAerxF57DZONK3xuElz0iYqrxWp0Od6O2/C0eKt+yg6EcezTNhC/j5p/gE7pnd4dQ4GKnnuC7NBv/B/QLgVpyHeWitRa8HoxWVI5433PApsm6IUPgRyOAcgf1USSx0fmtceanHem2Bm8IWeAUz92s2BRygoxjPFzgQxPCE85Vy8RzYb4lbpRYm/E7V5RqO35tpWehxfehROrP8ZWvSu/n+jFduWrLpTutMKLjS8ONv/g==
+    properties :
+     x : 12
+     y : 25
+     width : 295
+     height : 27
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_INFORMATION
+    identifier : 0x26e2f8d906e1b725
+    internal_properties : CAAAAAgAAABAXBn5KjcL8LI1yCWsA1wcAEj90YtAaWam67s0Jkzwzv692dcl7GMknYtHfFIpFYNZSuRcbvWrsieY11RhKgW5QxtZNIaTGHUgNJaBjdgg5Sr2hxno5+1zkiLhpF8iUo30CdlvvkQKcxnou2svH+TnQ2sB/7vHRoSxxhrWxTNYGR6G092l4JfI+0hKdlM5ihpFxvbWz7p+hLCQrkO0r9OW9+oZ3z7FX/i0CBH2OhAHkPe83X+/DxX6c0DoANPw+EkSBAiuthn0FHK82TLp2zsTytmhcfXsjtA6BjWYewO13FBXA4OagQeJND4wh3UPNmvEt5ZqRdk9gDK8PpNqAai2UUIZGltr7gBIeEuzxH6acNDRPJs7qJCE03YKXRed1ocU3vFTRPRZv6edjl99udvTlThESEeIr31PTVYt9P+EI3b4XbFgRU8ZYJIPauy00VQrPC87jeLKCEmDdKkeS7U=
+    properties :
+     x : 15
+     y : 301
+     width : 291
+     height : 48
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Retry
+    identifier : 0x26e2f8d906e2b725
+    internal_properties : CAAAAAgAAAAst2SJChRzP3elFleL7+Ay1N7wWLA63KRh0FbHe7+ntCx0eK3uz1r54aVZSB4N2sUYXeeBVek2YdJ67BWkK1BSB52b8elu3dTaILCIW6jOdU1yHJ5AJyGqwJutwPt8egjU3VFaLUFCVaeivkvE3laiKiNx48K1TOcjOB/RzcVb9bSORpuA5TM1sot/v1lUNsdgzSA7PRobWIJ3ZVgwYH94hdOzt1iQ8ggXhiOPrYe58dJ7bGsm4hc/vhRV5aZAjd8hDywionc3p7CNGS/kmzR5bISuhxFKUCmcPnLOncZ1K0F77uNU39qUFYa9+ujezk3SvqfvLz2bOYrCJz3ufwdGumxgGtj1t/IUGUAg9D+pbIJSLvQGZEIhExD91bB+ZLXuOBWWmttP/nyBdXgF15BVTRjTN6L2HxweehXMJXXH7YypacEXuuh0uOt3o7qov0Yj2SG6mCpT/IxDdQMoaym5GbBS2AhzXkzu2C/Rq1Fd/CvlsU1n7a6C7XFG7vxs2TLgNxSVc9JBTn5ukGJZbBR/O2QYcvJappsYK/Q94VxrOB8TBahCLgAJQMokKCfZo1uym+1b+RW4jhgX0qFJV8wS3S09luEAehrgNMnZW/gIn0W0jBCPufl40flx+iVLegHf8CgcztXfNES2EvooCcFZs+cjYGBj+uKqoG+pLurebgdos3fnJv6vFL9Pz4w3+fzMEWDT7DfIo9fDTa6FZ+RRqpf6sDhgNDQ1xY4W3MtJogVsB82iek7c8rD8FpKStK5W/pNToyNJweAs44NOxGF2bBr6cxRMSzQbKyQdaJ1fmv5gKjEbwySzvPpBp9DACvvpr4KA87MtaiwX53n9QzT46h9Rr8vVva+Z8xFR1yoEDOqCv3tFfbyuKJYDCyKvre5pfXbW0zo2KADjbtIzei9n0A6o0PCE9U6wUF3feI+ayDs7
+    properties :
+     x : 54
+     y : 366
+     width : 219
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         WIN_Main.ResetGame()
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACw51T2rUE/8ePeHvj3ZdVYXID36sKWze36NhzvEz0pz6G+IwE2KItPealOnfTXVWyqtl55FrBn4+NWJGnsGkrzkp5pXTxRT+WBJc3tvmGprrLTk66A427T+Hnx
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow(gnOpeningMode is int)
+      
+      // Manage the opening mode of the window
+      SWITCH gnOpeningMode
+      	CASE cnVictory
+      		IMG_VICTORY..Visible = True		
+      		STC_TITLE = <§$0003§> 
+      		STC_INFORMATION = <§$0004§>
+      	CASE cnDraw
+      		IMG_RETRY..Visible = True
+      		STC_TITLE =<§$0002§> 
+      		STC_INFORMATION = <§$0001§>
+      	CASE cnDefeat
+      		IMG_RETRY..Visible = True
+      		STC_TITLE =<§$0000§>
+      		STC_INFORMATION = <§$0001§>
+      		
+      END
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x158914c4004cb66d
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : You lost!
+     index : 0
+   -
+     text :
+      en-GB : Do you want to get your revenge?
+     index : 1
+   -
+     text :
+      en-GB : Draw
+     index : 2
+   -
+     text :
+      en-GB : You won!
+     index : 3
+   -
+     text :
+      en-GB : Do you want to confirm this achievement?
+     index : 4
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
